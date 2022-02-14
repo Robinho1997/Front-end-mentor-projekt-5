@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body {
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-size: cover;
+    background-color: hsl(225, 100%, 94%);
+     background-repeat: no-repeat;
+     font-family: 'Red Hat Display';
+     font-size: 1.3rem;
+     
+}
+
+.container {
+    margin: 0 auto;
+    width: 25%;
+    border-radius: 40px;
+    text-align: center;
+    background-color: white;
+    margin-top: 5%;
+    
+   
+    
+    
+}
+
+.header-img {
+width: 100%;
+border-top-right-radius: 40px;
+border-top-left-radius: 40px;
+}
+
+h1 {
+    font-weight: 700;
+    color:  hsl(223, 47%, 23%);
+}
+
+p {
+   color:  hsl(224, 23%, 55%);
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.flex-box {
+    display: flex;
+    
+    width: 70%;
+    justify-content:space-between;
+    margin: 0 auto;
+    align-items: center;
+    padding: 1em;
+    border-radius: 20px;
+    background-color:  hsl(225, 100%, 98%);
+    margin-bottom: 2em;
+    margin-top: 2em;
+    gap: 2%;
+    
+}
+
+.kleine-flex-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.musik-icon {
+    
+    border-radius: 40px;
+}
+
+.blue-button {
+    background-color: hsl(245, 75%, 52%);
+    width: 70%;
+    margin: 0 auto;
+    padding: 1.4em;
+    color: white;
+    border-radius: 20px;
+    border-style: none;
+    font-weight: bolder;
+    font-size: 1rem;
+    font-family: 'Red Hat Display';
+}
+
+.überschrift {
+    font-weight: bolder;
+    color:  hsl(223, 47%, 23%);
+    
+}
+
+.change {
+    font-size: 1rem;
+}
+
+.white-button {
+    width: 70%;
+    padding: 2em;
+    border-style: none;
+    background-color: white;
+    color:  hsl(224, 23%, 55%);
+    font-weight: 700;
+    font-size: 1rem;
+    font-family: 'Red Hat Display';
+    
+}
+
+.preis {
+    color:  hsl(224, 23%, 55%);
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1200px) {
+
+.container {
+    width: 90%;
+}
+body {
+    font-size: 1rem ;
+}
+.change {
+    font-size: 0.8rem;
+}
+}
