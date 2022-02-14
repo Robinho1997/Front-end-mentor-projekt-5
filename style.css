@@ -79,6 +79,10 @@ p {
     font-weight: bolder;
     font-size: 1rem;
     font-family: 'Red Hat Display';
+    
+}
+.blue-button:hover {
+    background-color: rgb(43, 169, 179);
 }
 
 .überschrift {
@@ -89,6 +93,16 @@ p {
 
 .change {
     font-size: 1rem;
+    border-style: none;
+    background-color: hsl(225, 100%, 98%);;
+    color: blue;
+    text-decoration: underline;
+    font-family: 'Red Hat Display';
+}
+
+.change:hover {
+    color: rgb(43, 169, 179);
+    text-decoration: none;
 }
 
 .white-button {
@@ -101,6 +115,9 @@ p {
     font-size: 1rem;
     font-family: 'Red Hat Display';
     
+}
+.white-button:hover {
+    color: black;
 }
 
 .preis {
