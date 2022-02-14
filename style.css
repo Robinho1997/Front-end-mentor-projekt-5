@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Red+Hat+Display:wght@500;700;900&display=swap');
 
 body {
-    background-image: url(/images/pattern-background-desktop.svg);
+    background-image: url(images/pattern-background-desktop.svg);
     background-size: cover;
     background-color: hsl(225, 100%, 94%);
      background-repeat: no-repeat;
